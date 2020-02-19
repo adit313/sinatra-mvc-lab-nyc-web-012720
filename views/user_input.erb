@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>title</title>
-  </head>
-  <body>
-    <h1>Pig Latinizer</h1>
-  
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<title>title</title>
+</head>
+<body>
+	<h1>Pig Latinizer!</h1>
+		<h5>Enter your phrase:</h5>
+
+	<form method="post" action="/piglatinize">
+		<p>user_phrase:</p>
+		<textarea name="user_phrase"></textarea>
+		<br>
+		<button type="submit" value="submit">Submit</button>
+	</form>
+
+	<%= @text %>
+
+</body>
 </html>
